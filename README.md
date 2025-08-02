@@ -59,13 +59,6 @@ graph TD
   <img src="Screenshots/Screenshot_1.jpg" alt="Preview 1"/>
 </div>
 
-#### 3. Adaptive MIP Selection
-
-**Graphics Pipeline Impact**:
-- Reduces specular aliasing while preserving detail
-- Maintains texture coherence across pixels
-- Adapts to both distance and roughness
-
 ⚠️ Please use this only on metal surfaces that exhibit high specularity using it on other surfaces may introduce more noise or even eliminate some specular highlights
 
 ---
