@@ -8,8 +8,6 @@
 A physically-based rendering (PBR) shader with GGX BRDF implementation for Unity's Built-in Render Pipeline (BRP). Designed primarily for forward rendering but compatible with deferred (stored in Forward draw pass).
 
 ## Features
-⚠️ This explanation uses more general language in terms of both the formula and the shader implementation.
-
 ### 1. Core PBR Implementation
 - **GGX Microfacet Distribution**: Accurate specular highlights with energy conservation
 - **Smith Visibility Term**: Height-correlated masking-shadowing
@@ -68,7 +66,7 @@ graph TD
 - Maintains texture coherence across pixels
 - Adapts to both distance and roughness
 
-⚠️ Please use this only on metal surfaces that exhibit high specularity; using it on other surfaces may introduce more noise or even eliminate some specular highlights
+⚠️ Please use this only on metal surfaces that exhibit high specularity using it on other surfaces may introduce more noise or even eliminate some specular highlights
 
 ---
 
