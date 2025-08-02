@@ -303,13 +303,6 @@ LOD = \frac{1}{2}\log_2\left(\max(||\nabla u||^2, ||\nabla v||^2)\right) + 2\alp
 - Maintains texture coherence across pixels
 - Adapts to both distance and roughness
 
-**Shader Code Flow**:
-```mermaid
-graph LR
-    Toksvig --> D[Sharp Speculars]
-    Toksvig --> E[No Shimmering]
-```
-
 ⚠️ Please use this only on metal surfaces that exhibit high specularity; using it on other surfaces may introduce more noise or even eliminate some specular highlights
 
 ---
