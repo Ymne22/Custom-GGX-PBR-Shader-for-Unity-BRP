@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_1
+  m_Shader: {fileID: 4800000, guid: a14f093ffd7814b43b723557fb6ad303, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CUTOUT_ON
+  - _USESS_ON
+  m_InvalidKeywords:
+  - _ALPHABLEND_ON
+  - _METALLICGLOSSMAP
+  - _USECUTOUT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BevelMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2807c77499fc5104f878f64bf6e7aacd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 1d366267f31f1c6418854044dc0ea562, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityMap:
+        m_Texture: {fileID: 2800000, guid: 71d27ef2e2a36a248bb3d4a2dca522f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceThickness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BevelStrength: 1
+    - _BumpScale: 0.25
+    - _Culling: 0
+    - _Cutoff: 0.5
+    - _DstBlend: 10
+    - _EMISSION: 0
+    - _EmissionIntensity: 1
+    - _InvertPOMShadows: 0
+    - _Metallic: 0.096
+    - _Mode: 1
+    - _OcclusionStrength: 1
+    - _POMRefinementSteps: 4
+    - _POMSamples: 16
+    - _POMShadowIntensity: 1
+    - _POMShadowSamples: 16
+    - _POMShadowThreshold: 0.01
+    - _Parallax: 0.02
+    - _Refraction: 0.5
+    - _RefractionRoughnessBlur: 8
+    - _RefractiveIndex: 1.33
+    - _Roughness: 0.785
+    - _SSSAmount: 1
+    - _SSSPower: 2
+    - _SSSProfile: 0
+    - _SSSScale: 1
+    - _SpecularAAStrength: 1
+    - _SpecularIntensity: 1
+    - _SrcBlend: 5
+    - _SubsurfaceDistortion: -0.35
+    - _SubsurfacePower: 3
+    - _SubsurfaceRadius: 1
+    - _SubsurfaceScale: 1
+    - _ThicknessScale: 1
+    - _TilingMode: 0
+    - _TriplanarTiling: 1
+    - _UseBevel: 0
+    - _UseCutout: 1
+    - _UseEmission: 0
+    - _UsePOM: 0
+    - _UsePOMShadows: 0
+    - _UseRefraction: 0
+    - _UseSSS: 1
+    - _UseSpecularAA: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DielectricF0: {r: 0.04, g: 0.04, b: 0.04, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MetallicF0: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SubsurfaceColor: {r: 0.9071956, g: 1, b: 0.3160377, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
