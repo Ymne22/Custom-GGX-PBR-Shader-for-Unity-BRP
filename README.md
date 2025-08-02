@@ -256,11 +256,13 @@ half transmission = pow(saturate(1.0 - NdotL), _SubsurfaceRadius) * thickness;
 ---
 
 ### 4. **Specular Anti-Aliasing (Toksvig)**
+
+- **Normal Map Filtering**: Mipmap selection based on roughness and screen-space derivatives
+- **Roughness Modulation**: Reduces specular aliasing artifacts only for metal surface
+
 <div align="center">
   <img src="Screenshots/Screenshot_1.jpg" alt="Preview 1"/>
 </div>
-- **Normal Map Filtering**: Mipmap selection based on roughness and screen-space derivatives
-- **Roughness Modulation**: Reduces specular aliasing artifacts only for metal surface
 
 #### 1. Normal Variance Calculation
 
