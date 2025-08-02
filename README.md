@@ -1,14 +1,15 @@
 # PBR GGX Shader (Unity BRP)
 
-<div align="center">
-  <img src="Screenshots/Screenshot_0.gif" alt="Preview 1"/>
-</div>
-
 ## Summary
 A physically-based rendering (PBR) shader with GGX BRDF implementation for Unity's Built-in Render Pipeline (BRP). Designed primarily for forward rendering but compatible with deferred (stored in Forward draw pass).
 
 ## Features
 ### 1. Core PBR Implementation
+
+<div>
+  <img src="Screenshots/Screenshot_1.jpg" width="320"/>
+</div>
+
 - **GGX Microfacet Distribution**: Accurate specular highlights with energy conservation
 - **Smith Visibility Term**: Height-correlated masking-shadowing
 - **Schlick Fresnel**: With exact Fresnel calculation for dielectrics
@@ -30,8 +31,12 @@ graph TD
 ```
 
 ---
-
 ### 2. **Parallax Occlusion Mapping (POM)**
+
+<div>
+  <img src="Screenshots/Screenshot_2.gif" width="320"/>
+</div>
+
 - **Raymarching Implementation**: 16 default samples with 4 refinement steps
 - **Self-Shadowing**: Optional shadow casting from height map
 - **Adaptive Sampling**: Adjustable sample count and refinement
@@ -43,6 +48,11 @@ graph TD
 ---
 
 ### 3. **Subsurface Scattering (SSS)**
+
+<div>
+  <img src="Screenshots/Screenshot_3.jpg" width="320"/>
+</div>
+
 - **Diffusion Profile Approximation**: Using 3-term kernel (RGB channels)
 - **Thickness Map**: Controls light penetration distance
 - **Scatter Radius**: Adjustable falloff (0-5 units)
@@ -52,12 +62,12 @@ graph TD
 
 ### 4. **Specular Anti-Aliasing (Toksvig)**
 
+<div>
+  <img src="Screenshots/Screenshot_4.jpg" width="320"/>
+</div>
+
 - **Normal Map Filtering**: Mipmap selection based on roughness and screen-space derivatives
 - **Roughness Modulation**: Reduces specular aliasing artifacts only for metal surface
-
-<div align="center">
-  <img src="Screenshots/Screenshot_1.jpg" alt="Preview 1"/>
-</div>
 
 ⚠️ Please use this only on metal surfaces that exhibit high specularity using it on other surfaces may introduce more noise or even eliminate some specular highlights
 
