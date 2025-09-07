@@ -1,5 +1,7 @@
 # PBR GGX Shader (Unity BRP)
 
+⚠️ This version has been deprecated. Please use this version for the latest update: [Ymne LightingFX](https://github.com/Ymne22/YmneLightingFX-for-Unity-BRP/tree/main)
+
 ## Summary
 A physically-based rendering (PBR) shader with GGX BRDF implementation for Unity's Built-in Render Pipeline (BRP). Designed primarily for forward rendering but compatible with deferred (stored in Forward draw pass).
 
